@@ -4,5 +4,5 @@ function solveIt(num){
         sum = sum + num % 10;
         num = num / 10;
     }
-    return sum;
+    document.getElementById("ans").innerHTML = sum;
 }
